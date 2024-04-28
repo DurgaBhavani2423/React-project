@@ -1,10 +1,7 @@
 
 import './playvideo.css'
 
-// import like from '../../assets/like.png'
-// import dislike from '../../assets/dislike.png'
-// import share from '../../assets/share.png'
-// import save from '../../assets/save.png'
+
 import { BiLike ,BiDislike} from "react-icons/bi";
 import { IoIosShareAlt } from "react-icons/io";
 import { MdOutlineSaveAlt } from "react-icons/md";

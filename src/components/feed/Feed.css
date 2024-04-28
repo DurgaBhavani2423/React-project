@@ -26,19 +26,11 @@ img:hover{
 }
 .card h3{
     font-size: 14px;
-<<<<<<< HEAD
     font-weight: 600;
     color:rgb(17, 15, 15);
-=======
-/*     font-weight: 600; */
-    color:rgb(46, 37, 37);
->>>>>>> 7008fb2bd6ca10ca8a64f89493d2fdf73cf21fe8
     margin:6px 0;
-     font-family:'Times New Roman', Times, serif;
 }
+
 .card p{
     font-size: 14px;
-}
-img:hover{
-    opacity: 0.8;
 }

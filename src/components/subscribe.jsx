@@ -20,7 +20,7 @@ const Subscribe=()=>{
             subscribed  ?
             <button onClick={handlesub} style={{backgroundColor:"red"}}>Subscribe</button> 
             :
-            <button onClick={handleunsub} style={{backgroundColor:"grey"}}>Subscribed<FaBell/></button>
+            <button onClick={handleunsub} style={{backgroundColor:"grey"}}>Subscribed<span style={{marginLeft:"10px"}}><FaBell/></span></button>
            
         }
        </div>

@@ -7,6 +7,9 @@ nav{
     position: sticky;
     top:0;
     z-index: 10;
+    height:80px;
+    
+    
 }
 .nav-left .flex-div{
     width:20px;
@@ -43,8 +46,16 @@ border-radius: 25px;
     width:35px;
     height:35px;
     border-radius: 50%;
+    
+    
 }
 
+
+
+button{
+    border: none;
+    background: none;
+}
 @media (max-width:900px){
     .menu-icon{
         display: none;
@@ -64,3 +75,24 @@ border-radius: 25px;
     }
 
 }
+
+.profile-container{
+    position: relative;
+}
+.profile-info{
+    position: absolute;
+    border: 1px solid black;
+    height:250px;
+    width:200px;
+    background-color: rgb(247, 241, 241);
+    right: 0px;
+    border-radius:10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
