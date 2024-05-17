@@ -7,18 +7,19 @@ nav{
     position: sticky;
     top:0;
     z-index: 10;
-    height:80px;
+    height:70px;
     
     
 }
 .nav-left .flex-div{
-    width:20px;
+    width:30px;
     margin-right: 25px;
+    height:30px;
 }
 
 
-.nav-left .youtubeicon{
-    width: 100px;
+.nav-left .icon{
+    width: 60px;
     margin-left: 30px;
 }
 
@@ -68,12 +69,13 @@ button{
         width:30px;
     }
     .youtubeicon{
-        width:60px;
+        height:10px;
+       
+
     }
     .nav-middle .search-box input{
         width:100px;
     }
-
 }
 
 .profile-container{

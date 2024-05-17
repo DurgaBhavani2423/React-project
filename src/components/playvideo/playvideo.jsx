@@ -58,12 +58,12 @@ const Playvideo = () => {
             <p>{apidata?value_converter(apidata.statistics.viewCount):"15K"} views  &bull; {apidata?moment(apidata.snippet.publishedAt).fromNow():"2 days ago"}</p>
             <div>
                 <span>
-                    {/* <img src={like} alt="" /> */}
+                  
                     <BiLike  className='like'/>
                 {apidata?value_converter(apidata.statistics.likeCount): 206}</span>
                 <span>
-                    {/* <img src={dislike} alt="" /> */}
-                    <BiDislike className='dislike'/></span>
+                    
+                <BiDislike className='dislike'/></span>
                 <span><IoIosShareAlt className='icons'/>share</span>
                 <span><MdOutlineSaveAlt className='icons'/>save</span>
                
@@ -98,10 +98,10 @@ const Playvideo = () => {
                         <h3>{item.snippet.topLevelComment.snippet.authorDisplayName} <span> {moment(item.snippet.topLevelComment.snippet.publishedAt).fromNow()}</span></h3>
                         <p> {item.snippet.topLevelComment.snippet.textDisplay}</p>
                         <div className="comment-action">
-                            {/* <img src={like} alt="" /> */}
+                            
                             <BiLike className='icons'/>
                             <span>{value_converter(item.snippet.topLevelComment.snippet.likeCount)}</span>
-                            {/* <img src={dislike} alt="" /> */}
+                           
                             <BiDislike className='icons'/>
                         </div>
                     </div>
