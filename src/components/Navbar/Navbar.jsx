@@ -33,18 +33,20 @@ const Navbar = ({ setsidebar }) => {
           onClick={() => setsidebar(prev => !prev)}
           src={menu_icon}
           alt=""
-          width={30}
-        />
+          width={30}/>
+
         <Link to='/'>
           <img className='icon' src={vicon} alt="" width={100} />
         </Link>
       </div>
+
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
           <input type="text" placeholder='Search'/>
           <img src={search_icon} alt="" />
         </div>
       </div>
+      
       <div className="nav-right flex-div">
         <img src={upload_icon} alt="" />
         <img src={more_icon} alt="" />
