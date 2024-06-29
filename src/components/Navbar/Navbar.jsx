@@ -39,12 +39,12 @@ const Navbar = ({ setsidebar }) => {
           <img className='icon' src={vicon} alt="" width={100} />
         </Link>
       </div>
-      <div className="nav-middle flex-div">
+{/*       <div className="nav-middle flex-div">
         <div className="search-box flex-div">
           <input type="text" placeholder='Search'/>
           <img src={search_icon} alt="" />
         </div>
-      </div>
+      </div> */}
       <div className="nav-right flex-div">
         <img src={upload_icon} alt="" />
         <img src={more_icon} alt="" />
