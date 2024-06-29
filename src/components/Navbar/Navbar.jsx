@@ -46,7 +46,7 @@ const Navbar = ({ setsidebar }) => {
         </div>
       </div> */}
       <div className="nav-right flex-div">
-        <img src={upload_icon} alt="" />
+{/*         <img src={upload_icon} alt="" /> */}
         <img src={more_icon} alt="" />
         <img src={notification_icon} alt="" />
         
