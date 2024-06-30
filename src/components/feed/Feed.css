@@ -6,7 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-column-gap:16px;
     grid-row-gap:30px ;
-   
+   margin-top: 60px;
 }
 .card img{
     width:100%;
@@ -22,7 +22,7 @@ img:hover{
     /* font-weight: 600; */
     color:rgb(46, 38, 38);
     margin:5px 0;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
 }
 .card h3{
     font-size: 14px;

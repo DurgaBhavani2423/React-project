@@ -1,4 +1,4 @@
-
+/* 
 .play-video{
     flex-basis: 69%;
 
@@ -117,7 +117,7 @@
 }
 .comment-action span{
     margin-right: 20px;
-    color:rgb(126, 113, 113)
+    color:rgb(248, 245, 245)
 }
 
 .icons{
@@ -148,5 +148,226 @@
         margin-left: 0;
         margin-right: 15px;
         margin-top: 15px;
+    }
+} */
+
+.play-video {
+    flex-basis: 69%;
+    margin-top: 60px;
+}
+.play-video iframe {
+    width: 100%;
+    height: 37vw;
+    border-radius: 10px;
+}
+.play-video h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(56, 48, 48);
+}
+.play-video-info img {
+    width: 20px;
+    margin-right: 8px;
+}
+.play-video-info span {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.play-video-info hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.publisher div {
+    flex: 1;
+    line-height: 18px;
+}
+.publisher img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.publisher div p {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.publisher div span {
+    font-size: 13px;
+    color: rgb(70, 58, 58);
+}
+.publisher button {
+    background: red;
+    color: #fff;
+    margin-left: 150px;
+    padding: 8px 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.vid-description {
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.vid-description p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(83, 70, 70);
+}
+.vid-description h4 {
+    font-size: 14px;
+    color: rgb(83, 70, 70);
+    margin-top: 15px;
+}
+.comment {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.comment img {
+    border-radius: 50px;
+    width: 35px;
+    margin-right: 15px;
+}
+.comment h3 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.comment h3 span {
+    font-size: 12px;
+    color: rgb(83, 70, 70);
+    font-weight: 500;
+    margin-left: 8px;
+}
+.comment-action {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.comment-action img {
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.comment-action span {
+    margin-right: 20px;
+    color: rgb(248, 245, 245);
+}
+.icons {
+    height: 40px;
+    width: 25px;
+}
+.like {
+    height: 40px;
+    width: 25px;
+}
+.dislike {
+    height: 40px;
+    width: 25px;
+}
+
+@media (max-width: 1200px) {
+    .play-video iframe {
+        height: 45vw;
+    }
+    .publisher button {
+        padding: 6px 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .play-video {
+        flex-basis: 100%;
+    }
+    .play-video iframe {
+        height: 50vw;
+    }
+    .vid-description {
+        padding-left: 0;
+    }
+    .play-video-info span {
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+    .publisher button {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .play-video iframe {
+        height: 55vw;
+    }
+    .publisher img {
+        width: 35px;
+    }
+    .publisher div p {
+        font-size: 16px;
+    }
+    .publisher div span {
+        font-size: 12px;
+    }
+    .publisher button {
+        margin-left: 50px;
+        padding: 6px 20px;
+    }
+    .comment img {
+        width: 30px;
+    }
+    .comment h3 {
+        font-size: 13px;
+    }
+    .comment h3 span {
+        font-size: 11px;
+    }
+    .comment-action img {
+        width: 18px;
+    }
+    .comment-action span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px) {
+    .play-video iframe {
+        height: 60vw;
+    }
+    .publisher button {
+        margin-left: 0;
+        padding: 6px 15px;
+    }
+    .comment img {
+        width: 25px;
+    }
+    .comment h3 {
+        font-size: 12px;
+    }
+    .comment h3 span {
+        font-size: 10px;
+    }
+    .comment-action img {
+        width: 16px;
+    }
+    .comment-action span {
+        font-size: 12px;
     }
 }

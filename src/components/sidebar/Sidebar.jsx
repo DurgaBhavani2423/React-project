@@ -2,10 +2,7 @@
 import './sidebar.css'
 
 
-import p1 from '../../assets/p1.png'
-import profile from '../../assets/profile.jpg'
 
-import megan from '../../assets/megan.png'
 
 import { IoMdHome ,IoLogoGameControllerB} from "react-icons/io";
 import { MdSportsBasketball } from "react-icons/md";
@@ -14,7 +11,8 @@ import { BsTools } from "react-icons/bs";
 import { IoMusicalNotes } from "react-icons/io5";
 import { FaBlog } from "react-icons/fa";
 import { FaRegNewspaper,FaCarRear } from "react-icons/fa6";
-
+import { IoSettingsOutline, IoHelpCircleOutline } from "react-icons/io5";
+import { MdOutlineFeedback } from "react-icons/md";
 
 
 const Sidebar = ({sidebar,category,setcategory}) => {
@@ -71,17 +69,18 @@ const Sidebar = ({sidebar,category,setcategory}) => {
             </div>
             <hr/>
         </div>
-        <div className="subscribe-list">
-            <h3>Subscribe</h3>
-            <div className="side-link">
-                <img className="images" src={p1} alt="" /><p>priya</p>
+
+        <div className="list">
+        <div >
+                <IoSettingsOutline className='img'/><span className='s1'> Settings</span>
             </div>
-            <div className="side-link">
-                <img  className="images" src={profile} alt="" /><p>Junnu</p>
+        
+            <div  >
+                <IoHelpCircleOutline className='img'/><span className='s1'> Help</span>
             </div>
            
-            <div className="side-link">
-                <img className="images" src={megan} alt="" /><p>minny</p>
+            <div  >
+              <MdOutlineFeedback className='img'/> <span className='s1'> FeedBack</span>
             </div>
             
         </div>
