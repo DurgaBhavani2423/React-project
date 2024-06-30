@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 1554c3f7a4568dacbdb616f8ff1ef2fe73195763
 import './playvideo.css'
 
 import { BiLike, BiDislike } from "react-icons/bi";

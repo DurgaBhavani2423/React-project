@@ -43,10 +43,16 @@ nav {
     width: 15px;
     cursor: pointer; /* Indicate the image is clickable */
 }
+<<<<<<< HEAD
 
 .nav-right img {
     width: 25px;
     margin-right: 25px;
+=======
+.nav-right img{
+    width:25px;
+    margin-right: 45px;
+>>>>>>> 1554c3f7a4568dacbdb616f8ff1ef2fe73195763
 }
 
 .nav-right .user-icon {
