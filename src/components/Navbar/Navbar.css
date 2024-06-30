@@ -48,7 +48,7 @@ nav {
 .nav-right img {
     width: 25px;
     margin-right: 25px;
-
+}
 .nav-right img{
     width:25px;
     margin-right: 45px;
@@ -58,7 +58,7 @@ nav {
 .nav-right .user-icon {
     width: 35px;
     height: 35px;
-    border-radius: 50%;
+    border-radius:50%;
 }
 
 button {
@@ -112,23 +112,7 @@ button {
     padding-top: 70px; /* Same as the navbar height */
 }
 
-/* 
-.search-results{
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:10px;
-    margin-top: 70px;
-   margin-left:230px; 
-   
-}
-.imga{
-    width:260px;
-    border-radius: 5px;
 
-}
- */
 
  
 
