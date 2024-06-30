@@ -77,9 +77,12 @@ button {
         display: block;
         width: 30px;
     }
-    .youtubeicon {
-        height: 8px;
-    }
+   .youtubeicon{
+    height:20px;
+    width:20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
     .nav-middle .search-box input {
         width: 100px;
     }
@@ -113,6 +116,11 @@ button {
 }
 
 
-
+.youtubeicon{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
  
 
