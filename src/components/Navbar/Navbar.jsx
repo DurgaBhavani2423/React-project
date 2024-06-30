@@ -84,7 +84,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import menu_icon from '../../assets/menu.png';
-import youtubeicon from '../../assets/youtubeicon.jpg';
+import vtubeicon from '../../assets/vtube.jpg';
 import search_icon from '../../assets/search.png';
 import upload_icon from '../../assets/upload.png';
 import more_icon from '../../assets/more.png';
@@ -158,7 +158,7 @@ const Navbar = ({ setsidebar }) => {
             width={30}
           />
           <Link to='/'>
-            <img className='youtubeicon' src={youtubeicon} alt="" width={100} />
+            <img className='youtubeicon' src={vtubeicon} alt="" width={100} />
           </Link>
         </div>
         <div className="nav-middle flex-div">
