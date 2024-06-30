@@ -104,7 +104,6 @@ const Navbar = ({ setsidebar }) => {
     setShowInfo(!showInfo);
   };
 
-<<<<<<< HEAD
   const fetchVideos = async (searchQuery) => {
     const options = {
       method: 'GET',
@@ -113,50 +112,6 @@ const Navbar = ({ setsidebar }) => {
         'x-rapidapi-host': 'youtube-v2.p.rapidapi.com'
       }
     };
-=======
-  return (
-    <nav className='flex-div'>
-      <div className='nav-left flex-div'>
-        <img
-          className='menu-icon'
-          onClick={() => setsidebar(prev => !prev)}
-          src={menu_icon}
-          alt=""
-          width={30}
-        />
-        <Link to='/'>
-          <img className='icon' src={vicon} alt="" width={100} />
-        </Link>
-      </div>
-{/*       <div className="nav-middle flex-div">
-        <div className="search-box flex-div">
-          <input type="text" placeholder='Search'/>
-          <img src={search_icon} alt="" />
-        </div>
-      </div> */}
-      <div className="nav-right flex-div">
-{/*         <img src={upload_icon} alt="" /> */}
-        <img src={more_icon} alt="" />
-        <img src={notification_icon} alt="" />
-        
-        <div className="profile-container" onClick={handleClick}>
-          <img src={profile} className='user-icon' alt="" />
-         
-          {showInfo && (
-            <div className="profile-info">
-              <img src={profile} className='user-icon' alt="" />
-              <p>Sophia</p>
-              <h5>Sophiajohn@2423</h5>
-              
-              <hr/>
-              <span><p> <FaGoogle/> Google Account</p></span>
-              <p><IoSettingsOutline/> Settings</p>
-              <p><IoHelpCircleOutline/> Help</p>
-             <p><MdOutlineFeedback /> Feedback</p>
-            
-            </div>
-          )}
->>>>>>> 1554c3f7a4568dacbdb616f8ff1ef2fe73195763
 
     const queryParams = new URLSearchParams({
       query: searchQuery,
