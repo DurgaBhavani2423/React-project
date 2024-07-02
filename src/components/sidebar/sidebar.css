@@ -54,6 +54,10 @@
 .small-sidebar hr{
     margin-bottom: 25px;
 }
+.small-sidebar .list .img{
+    width:40px;
+    height:30px;
+}
 .images{
     width:45px;
     height:30px;
