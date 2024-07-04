@@ -80,7 +80,7 @@
 
 //2 nav bar 
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Navbar.css';
 import menu_icon from '../../assets/menu.png';
@@ -145,6 +145,21 @@ const Navbar = ({ setsidebar }) => {
       navigate('/search', { state: { videos, query } });
     }
   };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
+
+  useEffect(() => {
+    const input = document.querySelector('.search-box input');
+    input.addEventListener('keydown', handleKeyPress);
+
+    return () => {
+      input.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [query]);
 
   return (
     <div>
